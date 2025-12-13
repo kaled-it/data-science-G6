@@ -5,7 +5,7 @@
 # La herencia promueve la reutilización del código y facilita el mantenimiento.
 
 # Ejemplo de herencia:
-class persona:
+class persona: #definicion de la clase persona
     def __init__(self, nombre, email):
         self.nombre = nombre
         self.email = email
@@ -14,13 +14,13 @@ class persona:
         print(f'Nombre: {self.nombre}')
         print(f'Email: {self.email}')
         
-class alumno(persona):
+class alumno(persona): #definicion de la clase alumno que hereda de persona
     pass
 
-class  profesor(persona):
-    def __init__(self, nombre, email, esp):
-        super().__init__(nombre, email)
-        self.especialidad = esp
+class  profesor(persona): #definicion de la clase profesor que hereda de persona
+    def __init__(self, nombre, email, esp): #metodo constructor de la clase profesor
+        super().__init__(nombre, email) #llamada al metodo constructor de la clase base persona
+        self.especialidad = esp #agrega el atributo especialidad a la clase profesor
         
     def mostrar(self):
         super().mostrar()

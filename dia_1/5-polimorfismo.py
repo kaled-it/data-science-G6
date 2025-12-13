@@ -1,4 +1,8 @@
-
+#POLIMORFISMO: Capacidad de un objeto de tomar diferentes formas
+# El polimorfismo permite que diferentes clases puedan ser tratadas de la misma manera a traves de una interfaz comun
+# Esto facilita la extensibilidad y el mantenimiento del codigo
+# En este ejemplo, tanto la clase alumno como la clase profesor heredan de la clase persona
+# Ambas clases implementan el metodo mostrar de manera diferente, demostrando el polimorfismo
 
 class persona:
     def __init__(self, nombre, email):

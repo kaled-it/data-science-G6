@@ -9,23 +9,23 @@
 # en terminos practicos, el encapsulamiento ayuda a mantener la integridad de los datos
 # y a controlar como se accede y modifica la informacion dentro de una clase
 
-class Usuario:
-    
-    __usuario_email = 'admin@gmail.com'
+class Usuario: #definicion de la clase Usuario
+     
+    __usuario_email = 'admin@gmail.com' #atributo privado
     __usuario_password = '123'
     
-    def __ini__(self):
+    def __ini__(self): #metodo constructor
         pass
     
-    def login(self,email,password):
-        if email == self.__usuario_email and password == self.__usuario_password:
+    def login(self,email,password): #metodo publico para login
+        if email == self.__usuario_email and password == self.__usuario_password: #acceso a atributos privados dentro de la clase
             print('Login exitoso')
         else:
             print('Login fallido')
             
 print("LOGIN DE USUARIO")
-email = input('Ingrese su email: ')
+email = input('Ingrese su email: ') 
 password = input('Ingrese su password: ')
 
-usuario = Usuario()
-usuario.login(email, password)
+usuario = Usuario() #crear objeto de la clase Usuario
+usuario.login(email, password) #llamada al metodo login del objeto usuario
