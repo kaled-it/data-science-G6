@@ -2,6 +2,7 @@
 # La herencia es un mecanismo que permite crear nuevas clases basadas en clases existentes.
 # La clase que hereda se llama clase derivada o subclase, y la clase de la cual se hereda se llama clase base o superclase.
 # La subclase hereda los atributos y métodos de la superclase, y puede agregar nuevos atributos y métodos o modificar los existentes.
+# La herencia promueve la reutilización del código y facilita el mantenimiento.
 
 # Ejemplo de herencia:
 class persona:
