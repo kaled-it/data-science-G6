@@ -70,7 +70,7 @@ while True:                               # Bucle infinito para el menu
                 dic_alumnos[dni]['nombre'] = nombre_nuevo
             if email_nuevo:
                 dic_alumnos[dni]['email'] = email_nuevo
-            print(f'Alumno {dni} actualizado correctamente!!!.')
+            print(f'Alumno {dni} actualizado correctamente!!!.') 
         else:
             print('No se encontro alumno con el DNI ingresado.')
         
