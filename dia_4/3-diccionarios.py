@@ -32,3 +32,25 @@ del capitales["Perú"]  # Eliminar la clave "Perú" y su valor asociado
 capital_eliminada = capitales.pop("Colombia",'No existe')  # Eliminar y obtener el valor asociado a la clave "Colombia", ademas indicas la salida en una variable
 print(f'Se elminino la capital: {capital_eliminada}')
 print(capitales)
+
+#Recorrer un diccionario
+print("Recorriendo el diccionario:")
+#por claves
+for clave in capitales.keys(): #recorre las claves del diccionario
+    print(clave)
+    
+#por valores
+for valor in capitales.values(): #recorre los valores del diccionario
+    print(valor)
+
+#por pares clave-valor
+for clave, valor in capitales.items():
+    print(f"La capital de {clave} es {valor}")
+
+#hacer un update del diccionario
+nuevas_capitales = {
+    "Argentina": "Córdoba", #cambia la capital de argentina
+    "Venezuela": "Caracas"  #agrega la capital de venezuela
+}
+capitales.update(nuevas_capitales) #actualiza el diccionario con los nuevos valores
+print(capitales)
