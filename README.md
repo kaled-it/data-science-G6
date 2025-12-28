@@ -2,9 +2,7 @@
 Repositorio del Bootcamp de data science grupo G6
 
 ## TEMARIO
-### MODULO 2
-* CLASE 1 - POO CON PYTHON
-* CLASE 2 - BASE DE DATOS CON PYTHON
-* CLASE 3 - CONSUMO DE APIS
-* CLASE 4 - WEBSCRAPPING
-* CLASE 5 - ETL
+### MODULO 1
+* Clase 1 - Introduccion al data science
+* Clase 2 - GIY y  GITHUB
+* Clase 3 - Python
