@@ -4,4 +4,3 @@ dash
 pandas
 plotly
 seaborn
-plotly.express
